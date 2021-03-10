@@ -21,11 +21,11 @@ def myClick():
     fileName = "qr-code-example.png"
     img.save(fileName)
 
-f_name = Entry(root, width=30)
-f_name.grid(row=0, column=1, padx=20, pady=(10, 0))
+name = Entry(root, width=30)
+name.grid(row=0, column=1, padx=20, pady=(10, 0))
 
-f_name_label = Label(root, text='Enter URL')
-f_name_label.grid(row=0, column=0, pady=(10, 0))
+label = Label(root, text='Enter URL')
+label.grid(row=0, column=0, pady=(10, 0))
 
 submit_btn = Button(root, text="Generate", command=myClick)
 submit_btn.grid(row=6, column=0, columnspan=2, pady=10, padx=10, ipadx=100)
