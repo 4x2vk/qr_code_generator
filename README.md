@@ -12,3 +12,5 @@ __Windows__ :   1. Open __dist__ folder
 __WSL Linux__ : 1. Download __XLaunch__ program and install
             2. Input to terminal command: __export DISPLAY=0.0__
             3. Run __qr-code2.py__
+## Example
+![GitHub Logo](/qr-code-example.png)
